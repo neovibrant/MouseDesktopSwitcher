@@ -1,10 +1,14 @@
 # MouseDesktopSwitcher
 Switches the Windows 10 desktops using mouse buttons 4 &amp; 5.
 
-64bit systems only.
+![alt text](http://www.egg-tech.com/blog/images/mouse%20buttons.jpg)
+
+*Mouse with buttons 4 & 5 required, most brands will work just fine.*
 
 ## Installation
-Just download the `MouseSwitcher.exe` and execute. It will stay in the try while it runs.
+Just download the `MouseSwitcher.exe` and execute. It will stay in the system tray while it runs.
+
+> 64bit systems only. For 32bit you'll need to compile your own.
 
 To have it run at start-up
 
@@ -18,4 +22,4 @@ If you aren't running a 64bit Windows, the exe won't work, you need to compile y
 2. Use it to create an exe from the `MouseDesktopSwitcher.ahk` file from this repo.
 
 ## Customization
-No customization is supported. If you want to change anything, you need to change the ahk script and compile for AutoHotkey. Read their documentation, it's a pretty simple syntax.
+No customization is supported. If you want to change anything, you need to change the ahk script and compile it with AutoHotkey. Read their documentation, it's a pretty simple syntax.
