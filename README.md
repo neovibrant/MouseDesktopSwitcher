@@ -1,5 +1,5 @@
 # MouseDesktopSwitcher
-Switches the Windows 10 desktops use mouse buttons 4 &amp; 5
+Switches the Windows 10 desktops using mouse buttons 4 &amp; 5.
 
 64bit systems only.
 
