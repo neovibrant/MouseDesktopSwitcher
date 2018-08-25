@@ -30,3 +30,7 @@ First, install `xbindkeys` and `xdotool`.
 Then create a `.xbindkeysrc` file in your home folder. Find the contents from the `xbindkeysrc` in this project.
 
 In the config, replace "8" with the number of the button you want to use to move right, and "9" with the number of the button you want to use to move left. If you don't know what the button numbers are, run <b>xev</b>, press the one you want while hovering your mouse over the window, and you'll see it in the output.
+
+The command that's uncommented works with a 5-workspace setup. If you want it to work with X desktops either comment that one out and uncomment the general command, or replace "5" with X and "4" with X - 1.
+
+Then add `xbindkeys` (no arguments) to your startup applications.
