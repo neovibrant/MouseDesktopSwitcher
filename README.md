@@ -1,4 +1,4 @@
-# MouseDesktopSwitcher
+# MouseDesktopSwitcher - Windows
 Switches the Windows 10 desktops using mouse buttons 4 &amp; 5.
 
 ![alt text](http://www.egg-tech.com/blog/images/mouse%20buttons.jpg)
@@ -23,3 +23,10 @@ If you aren't running a 64bit Windows, the exe won't work, you need to compile y
 
 ## Customization
 No customization is supported. If you want to change anything, you need to change the ahk script and compile it with AutoHotkey. Read their documentation, it's a pretty simple syntax.
+
+# For Linux, use xbindkeys
+First, install `xbindkeys` and `xdotool`.
+
+Then create a `.xbindkeysrc` file in your home folder. Find the contents from the `xbindkeysrc` in this project.
+
+In the config, replace "8" with the number of the button you want to use to move right, and "9" with the number of the button you want to use to move left. If you don't know what the button numbers are, run <b>xev</b>, press the one you want while hovering your mouse over the window, and you'll see it in the output.
