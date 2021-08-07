@@ -1,9 +1,9 @@
 # MouseDesktopSwitcher - Windows
 Switches the Windows 10 desktops using mouse buttons 4 &amp; 5.
 
-![alt text](http://www.egg-tech.com/blog/images/mouse%20buttons.jpg)
-
 *Mouse with buttons 4 & 5 required, most brands will work just fine.*
+
+> **Important!** The tool should always be run as Administrator for it to work consistently.
 
 ## Installation
 Just download the `MouseSwitcher.exe` and execute. It will stay in the system tray while it runs.
