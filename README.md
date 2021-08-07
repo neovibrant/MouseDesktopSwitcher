@@ -43,3 +43,11 @@ In the config, replace "8" with the number of the button you want to use to move
 The command that's uncommented works with a 5-workspace setup. If you want it to work with X desktops either comment that one out and uncomment the general command, or replace "5" with X and "4" with X - 1.
 
 Then add `xbindkeys` (no arguments) to your startup applications.
+
+## For MacOS, use BetterTouchTool (commercial)
+
+Even though it's not free or open source, BetterTouchTool is a great tool that supports mapping mouse buttons to OS actions.
+
+https://folivora.ai/
+
+It's built by an independent developer and it's not too expensive, plus it provides a lot of features, like snapping windows and many other things.
