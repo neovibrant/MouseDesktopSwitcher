@@ -51,3 +51,5 @@ Even though it's not free or open source, BetterTouchTool is a great tool that s
 https://folivora.ai/
 
 It's built by an independent developer and it's not too expensive, plus it provides a lot of features, like snapping windows and many other things.
+
+Disclaimer: I am not associated with this developer and product, I've just used it for many years and find it useful. That doesn't mean I endorse it in any way.
