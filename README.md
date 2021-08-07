@@ -33,7 +33,11 @@ If you aren't running a 64bit Windows, the exe won't work, you need to compile y
 ## Customization
 No customization is supported. If you want to change anything, you need to change the ahk script and compile it with AutoHotkey. Read their documentation, it's a pretty simple syntax.
 
-# For Linux, use xbindkeys
+# On other OSes
+
+MouseDesktopSwitcher only supports Windows, but if you run other OSes, there are some suggestions below, based on my personal experience.
+
+## For Linux, use xbindkeys
 First, install `xbindkeys` and `xdotool`.
 
 Then create a `.xbindkeysrc` file in your home folder. Find the contents from the `xbindkeysrc` in this project.
@@ -43,6 +47,8 @@ In the config, replace "8" with the number of the button you want to use to move
 The command that's uncommented works with a 5-workspace setup. If you want it to work with X desktops either comment that one out and uncomment the general command, or replace "5" with X and "4" with X - 1.
 
 Then add `xbindkeys` (no arguments) to your startup applications.
+
+There is a config example here: https://github.com/neovibrant/MouseDesktopSwitcher/blob/master/xbindkeysrc
 
 ## For MacOS, use BetterTouchTool (commercial)
 
