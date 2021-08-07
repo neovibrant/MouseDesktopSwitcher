@@ -14,6 +14,15 @@ To have it run at start-up
 
 1. Press Win+r and type `shell:startup`
 1. Make a shortcut to the `MouseSwitcher.exe` here (Right click -> New -> Shortcut and then select your `MouseSwitcher.exe`).
+2. Richt click the shortcut, select Properties and then the Compatibility tab. Make sure to tick the _Run this program as an administartor_.
+
+### Running as an administrator
+
+On Windows, some programs/windows will be running with elevated privileges (i.e. as an administrator). Because of this, the MouseDesktopSwitcher will also need to run with elevated privileges, otherwise it won't be able to send the correct desktop switching keywords when one of these windows is focused.
+
+When running the MouseDesktopSwitcher as a normal user and an elevated privileges window is focused, things will start going wrong and keep going wrong even after closing that window.
+
+If you don't trust the `MouseDesktopSwitcher.exe` to run as an administrator, you can compile it yourself to make sure it doesn't have any sneaky malware.
 
 ## Compilation (optional)
 If you aren't running a 64bit Windows, the exe won't work, you need to compile your own.
