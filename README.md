@@ -1,5 +1,5 @@
-# MouseDesktopSwitcher - Windows
-Switches the Windows 10 desktops using mouse buttons 4 &amp; 5.
+# MouseDesktopSwitcher - Windows 10/11
+Switches the Windows 10/11 desktops using mouse buttons 4 &amp; 5.
 
 *Mouse with buttons 4 & 5 required, most brands will work just fine.*
 
@@ -38,6 +38,9 @@ No customization is supported. If you want to change anything, you need to chang
 MouseDesktopSwitcher only supports Windows, but if you run other OSes, there are some suggestions below, based on my personal experience.
 
 ## For Linux, use xbindkeys
+
+> Note: this may only work on X11, but not on Wayland.
+
 First, install `xbindkeys` and `xdotool`.
 
 Then create a `.xbindkeysrc` file in your home folder. Find the contents from the `xbindkeysrc` in this project.
