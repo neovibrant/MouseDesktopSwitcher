@@ -39,7 +39,11 @@ MouseDesktopSwitcher only supports Windows, but if you run other OSes, there are
 
 ## For Linux, use xbindkeys
 
-> Note: this may only work on X11, but not on Wayland.
+### Wayland
+
+Install and configure input-remapper, it's easy to use and a very good tool. Make sure not to forget to set your configuration to start automatically.
+
+### X11
 
 First, install `xbindkeys` and `xdotool`.
 
